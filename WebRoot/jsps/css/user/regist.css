@@ -1,0 +1,198 @@
+body {
+	font-size: 16px;
+}
+
+.login-form {
+	background: #fff;
+	box-shadow: 0 1px 11px rgba(0, 0, 0, .27);
+	border-radius: 2px;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	vertical-align: middle;
+	position: relative;
+	padding: 35px 55px 35px;
+}
+
+.divBody {
+	width: 882px;
+	margin: 0 auto;
+}
+
+.divtop {
+	padding-top: 30px;
+}
+
+.divLabel {
+	float: left;
+	width: 300px;
+	text-align: right;
+}
+
+.divTitle {
+	height: 30px;
+	width: 880px;
+	border: 1px #d0d0d0 solid;
+	background-image: url(../../../images/bg_btns.png);
+	background-position: 0px -132px;
+	line-height: 30px;
+}
+
+.spanTitle {
+	font-weight: 900;
+	margin-left: 18px;
+}
+
+.divCenter {
+	width: 880px;
+	height: 520px;
+	border-left: 1px #d0d0d0 solid;
+	border-right: 1px #d0d0d0 solid;
+	border-bottom: 1px #d0d0d0 solid;
+}
+
+table {
+	line-height: 50px;
+}
+
+.tdLabel {
+	text-align: right;
+	float: left;
+	font-size:16px;
+	width:100px;
+	text-align:right;
+	padding-left:0px!important;
+}
+
+.sub_re{margin-top: 33px;}
+
+.input-group .fg-line{
+	left:100px!important;
+	width:300px!important;
+	
+}
+
+.tdInput {
+	width: 250px;
+	float: left;
+	color: #000 !important;
+}
+
+.input-group {
+	color: #000 !important;
+}
+
+.tdError {
+	width: 330px;
+	margin: 0 auto;
+	position: relative;
+	top: 21px;
+	font-size: 14px;
+}
+
+.labelError {
+	color: #f40000;
+	border: 1px #efefef solid;
+	padding: 4px 4px 4px 4px;
+	background-color: #fef2f2;
+}
+
+.input {
+	width: 240px;
+	height: 32px;
+	border: 1px #7f9db9 solid;
+	padding-left: 10px;
+	line-height: 32px;
+}
+
+.verify {
+	width: 282px;
+	margin: 0 auto;
+}
+
+.verifyCodeImg {
+	width: 240px !important;
+	height: 60px;
+	border: 1px #e2e2e2 solid;
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	margin-left: -50px;
+}
+
+.tdhyz {
+	width: 100px;
+	position: relative;
+	margin: 0 auto;
+	left: 170px;
+	top: -32px;
+}
+
+.tdsubmit {
+	width: 282px;
+	margin: 0 auto;
+}
+
+.fg-verify {
+	width: 100px !important;
+}
+
+@media ( max-width :500px) {
+	
+	
+	.divBody {
+		width: 380px;
+		margin: 0 auto;
+	}
+	.divTitle {
+		height: 30px;
+		width: 380px;
+	}
+	.divCenter {
+		width: 380px;
+	}
+	.tdLabel {
+		width: 91px;
+		float: left;
+	}
+	.tdInput {
+		width: 50px;
+		float: left;
+	}
+	.tdError {
+		position: relative;
+		left: -35px;
+		top: 23px;
+	}
+	table {
+		width: 380px;
+	}
+	.input {
+		width: 200px;
+	}
+	.fg-verifyCode {
+		width: 200px;
+		top: 0px !important;
+		left: 76px;
+	}
+	.input-group .form-control {
+		width: 200px !important;
+	}
+	.fg-verify {
+		margin-left: -10px;
+	}
+}
+
+.verifyCodeImg {
+	width: 40%;
+}
+
+.input-group {
+    margin-bottom: 15px!important;
+    height: 55px;
+}
+
+.lc-block{
+	height: 575px;
+	margin-top: 7px!important;
+}

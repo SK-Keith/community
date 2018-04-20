@@ -1,0 +1,72 @@
+.usal {
+	font-size: 12px;
+	text-decoration: none;
+	line-height: normal;
+
+}
+a:link {
+	font-size: 12px;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:active {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.nomal {
+	font-size: 12px;
+	color: red;
+	text-decoration: none;
+	line-height: 20px;
+}
+a:visited {
+	font-family:Times New Roman, Times, serif;
+	font-size:12px;
+	color:black;
+	text-decoration: none;
+}
+.td1 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #006600;
+	border-right-color: #006600;
+	border-bottom-color: #006600;
+	border-left-color: #006600;
+	font-size: 13px;
+	line-height: 13px;
+}
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	left: 1px;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	margin-left:1px;
+	margin-top:1px;
+}
+.xtitle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.bigtitle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #006600;
+	text-decoration: none;
+}

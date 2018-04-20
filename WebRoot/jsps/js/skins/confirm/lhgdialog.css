@@ -1,0 +1,203 @@
+﻿/*
+ *@lhgdialog - Dialog Window v2.1.0 - Date : 2009-9-22
+ *@Copyright lhgcore.js (c) 2009 By LiHuiGang Reserved
+ */
+ 
+html, body
+{
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: transparent;
+	padding: 0;
+	font: 12px Verdana, Arial, sans-serif;
+}
+
+.contain
+{
+	position: absolute;
+	top: 26px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	z-index: 1;
+	background-color: #ccd9e8;
+	overflow: hidden;
+}
+
+.tl, .tr, .bl, .br, .ml, .mr, #xbtn, .ico
+{
+    position: absolute;
+	background-image: url(d_bg.gif);
+	background-repeat: no-repeat;
+}
+
+.tl
+{
+	top: 0px;
+	left: 0px;
+	width: 2px;
+	height: 26px;
+	background-position: -60px 0;
+}
+
+.tr
+{
+	top: 0px;
+	right: 0px;
+	width: 2px;
+	height: 26px;
+	background-position: -60px -27px;
+}
+
+.tc, .bc
+{
+	position: absolute;
+	background-image: url(d_x.gif);
+	background-repeat: repeat-x;
+}
+
+.tc
+{
+	cursor: move;
+	top: 0px;
+	right: 2px;
+	left: 2px;
+	height: 26px;
+	background-position: 0 0;
+}
+
+.bc
+{
+	bottom: 0px;
+	right: 2px;
+	left: 2px;
+	height: 2px;
+	background-position: 0 -26px;
+}
+
+.ml, .mr
+{
+	background-repeat: repeat-y;
+}
+
+.ml
+{
+	top: 26px;
+	left: 0px;
+	width: 2px;
+	bottom: 2px;
+	background-position: -62px 0;
+}
+
+.mr
+{
+	top: 26px;
+	right: 0px;
+	width: 2px;
+	bottom: 2px;
+	background-position: -64px 0;
+}
+
+.bl
+{
+	bottom: 0px;
+	left: 0px;
+	width: 2px;
+	height: 2px;
+	background-position: -31px -45px;
+}
+
+.br
+{
+	bottom: 0px;
+	right: 0px;
+	width: 2px;
+	height: 2px;
+	cursor: nw-resize;
+	background-position: -34px -45px;
+}
+
+.xbtn
+{
+	cursor: default;
+	top: 7px;
+	right: 10px;
+	width: 15px;
+	height: 15px;
+	background-position: 0 -42px;
+}
+.xbtnover{ background-position: -15px -42px; }
+
+
+#txt
+{
+	position: absolute;
+	height: 26px;
+	left: 10px;
+	color: #15428b;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.dlgfoot
+{
+	position: absolute;
+	height: 29px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: #ccd9e8;
+}
+
+.dlgfoot ul
+{
+    list-style: none;
+	margin-top: 4px;
+	margin-right: 10px !important;
+	margin-right: 0;
+}
+
+.dlgfoot ul li
+{
+    width: 60px;
+	height: 21px;
+	float: right;
+	cursor: default;
+	margin-right: 10px;
+	text-align: center;
+	background-image: url(d_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.dlgfoot ul li span
+{
+    position: relative;
+	top: 3px;
+	_top: 5px;
+	font: 12px Verdana, Arial, sans-serif;
+}
+.dlgfoot>ul li span{ +top: 5px; }
+
+#throbber
+{
+    width: 180px;
+    height: 25px;
+	top: 50%;
+	left: 50%;
+	margin-left: -90px;
+    margin-top: -12px;	
+	z-index: 2;
+	text-align: right;
+	font: 12px Verdana, Arial, sans-serif;
+	background-image: url(wait.gif);
+	background-repeat: no-repeat;
+}

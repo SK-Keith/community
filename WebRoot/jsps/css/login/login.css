@@ -1,0 +1,42 @@
+.normal1{    background: #efefef;
+    color: #fff;
+    width: 50%;
+    height: 50px;
+    float: left;}
+.active1{    background: #45A216;
+    color: #000;
+    width: 50%;
+    height: 50px;
+    float: left;}
+#tl01{width:100px;
+	height:34px;
+	background-color:yellow;
+	/* Rotate div */
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */}
+#tl02{width:100px;
+	height:34px;
+	background-color:#84D945;
+	/* Rotate div */
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */}
+
+.chat-tips {
+	padding: 20px;
+	border: 1px solid #d1d2d6;
+	position: absolute;
+	right: 78px;
+	top: -55px;
+	background-color: #ffffff;
+	display: none;
+	}
+.solution-item{height:500px}
+@media (max-width:768px){
+	.solution-item{height:auto;}
+	.blog-list .blog-item{width:300px;}
+	.carousel-control.left{display:none;}
+	.carousel-control.right{display:none;}
+	.car_img{height:200px!important;}
+}

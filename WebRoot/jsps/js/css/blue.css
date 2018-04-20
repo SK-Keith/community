@@ -1,0 +1,197 @@
+.w12 {
+	font-size: 12px;
+
+
+}
+.w1 {
+	font-size: 1px;
+}
+.noup {
+	font-size: 12px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.ds {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+
+}
+BODY {
+OVERFLOW-X: hidden;
+OVERFLOW: hidden;
+font-family: ËÎÌו,Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-bottom:0px;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+SCROLLBAR-FACE-COLOR: #E8E8E8;
+SCROLLBAR-HIGHLIGHT-COLOR: #DFDFDF;
+SCROLLBAR-SHADOW-COLOR: #DFDFDF;
+SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+SCROLLBAR-ARROW-COLOR: #ff3300;
+SCROLLBAR-TRACK-COLOR: #F3F3F3;
+SCROLLBAR-DARKSHADOW-COLOR: #DFDFDF;
+SCROLLBAR-BASE-COLOR: #ffffff;
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}.blue {
+	font-size: 12px;
+	border: 1px solid #4A4A82;
+}
+.grayright {
+	font-size: 12px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+.top01 {
+	font-size: 12px;
+	background-image: url(../images/bg_head_green.png);
+}
+.buttonx {
+	font-size: 12px;
+	background-image:url(../images/button_green.png);
+}
+.logo01 {
+	font-size: 12px;
+	background-image: url(../images/name.png);
+}
+.logo02 {
+	font-size: 12px;
+	background-image: url(../images/name_green_2.png);
+}
+.logo03 {
+	font-size: 12px;
+	background-image: url(../images/name_green_3.png);
+}
+.titlex {
+	font-size: 12px;
+	background-image: url(../images/bg_title_green.png);
+}
+.bg-tool01 {
+	font-size: 12px;
+	background-image: url(../images/page_left.png);
+}
+.bg-tool02 {
+	font-size: 12px;
+	background-image: url(../images/page_right.png);
+}
+.bg-tool03 {
+
+	font-size: 12px;
+	background-image: url(../images/page_re.png);
+}
+.bg-tool04 {
+
+
+	font-size: 12px;
+	background-image: url(../images/page_out.png);
+}
+.menux {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	background-image: url(../images/bg_menu.gif);
+
+}
+.menu01 {
+	font-size: 12px;
+	background-image: url(../images/ico_password.gif);
+}
+.menu02 {
+	font-size: 12px;
+	background-image: url(../images/ico_person.gif);
+}
+.menu03 {
+	font-size: 12px;
+	background-image: url(../images/ico_home.gif);
+}
+.menu04 {
+	font-size: 12px;
+	background-image: url(../images/ico_sys.gif);
+}
+.menu05 {
+	font-size: 12px;
+	background-image: url(../images/ico_gg.gif);
+	}
+.menu06 { 
+	font-size: 12px;
+	background-image: url(../images/png-01.gif);
+}
+.menu07 { 
+	font-size: 12px;
+	background-image: url(../images/png-02.gif);
+}
+.menu08 { 
+	font-size: 12px;
+	background-image: url(../images/png-03.gif);
+}
+.menu09 { 
+	font-size: 12px;
+	background-image: url(../images/png-04.gif);
+}
+.menu10 { 
+	font-size: 12px;
+	background-image: url(../images/png-05.gif);
+}
+.menu11 { 
+	font-size: 12px;
+	background-image: url(../images/png-06.gif);
+}
+}.menu-title {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	background-image: url(../images/ba.gif);
+}
+.tap01 {
+	font-size: 12px;
+	background-image: url(../images/bt_01.gif);
+}
+.tap02 {
+	font-size: 12px;
+	background-image: url(../images/bt_02.gif);
+}
+.bg-menu02 {
+	font-size: 12px;
+	background-image: url(../images/bg_title_green02.png);
+}
+.set {
+	font-size: 12px;
+	background-image: url(../images/set.png);
+}
+.footer {
+	font-size: 12px;
+	background-image: url(../images/bg_footer_green.jpg);
+}
+.copyright {
+	font-size: 12px;
+	background-image: url(../images/copyright_green.png);
+}
+.newtitle {
+	font-size: 12px;
+	background-image: url(../images/title.png);
+}

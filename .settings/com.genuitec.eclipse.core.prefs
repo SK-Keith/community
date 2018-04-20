@@ -1,0 +1,4 @@
+#Sun Apr 08 08:01:00 CST 2018
+eclipse.preferences.version=1
+validator.Checked=WebRoot/jsps/js,WebRoot/jsps/news,WebRoot/jsps/vendor
+validator.Unchecked=

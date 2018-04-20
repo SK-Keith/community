@@ -1,0 +1,88 @@
+#diannao {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #f4f4f4;
+	line-height: 54px;
+	height: 54px;
+	display: block;
+	font-family: "microsoft yahei";
+	font-size: 28px;
+}
+
+#yidong {
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #f4f4f4;
+	line-height: 54px;
+	height: 54px;
+	display: block;
+	font-family: "microsoft yahei";
+	font-size: 28px;
+}
+
+.fa-user:before {
+	content: "\f007";
+}
+
+.fa-lock:before {
+	content: "\f023";
+}
+
+.input-group .fg-line {
+	position: absolute;
+	width: 350px;
+	left: 88px;
+	top: -12px;
+	padding: 0px !important;
+}
+
+.input-group .fg-border {
+	position: absolute;
+	left: 110px;
+	top: 0px;
+}
+
+.inputlg {
+	border: 0;
+	border-bottom: 1px solid #e0e0e0;
+	width: 300px;
+}
+
+.errorTop {
+	margin-top: -20px;
+	padding-bottom: 20px;
+}
+
+.pull-left {
+	float: left !important;
+	font-size: 16px;
+}
+
+.pull-right {
+	float: right !important;
+	font-size: 16px;
+}
+
+.input-group {
+	margin-bottom: 15px !important;
+	height: 55px;
+}
+
+.fg-user {
+	padding-left: 16px;
+}
+
+.fg-email {
+	padding-left: 23px;
+}
+
+.yzm {
+	margin-right: 18px;
+	width: 130px;
+}
+/*.verifylg{width:72px;height:32px;position:relative;top:-33px;left:120px;}
+.verifyCodelg{position:relative;top:-17px;left:135px;font-size:14px;color:#000;}*/
+.errorlg {
+	margin-top: -26px;
+	padding-bottom: 16px;
+}

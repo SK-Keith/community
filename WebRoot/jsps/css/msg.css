@@ -1,0 +1,41 @@
+body {
+		font-size: 10pt;
+		color: #404040;
+		font-family: SimSun;
+	}
+	
+	.divBody {
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+	
+	.divTitle {
+		text-align:left;
+		
+		height: 25px;
+		line-height: 25px;
+		background-color: #efeae5;
+		border: 5px solid #efeae5;
+	}
+	.divContent {
+		
+		height: 230px;
+		border: 5px solid #efeae5;
+		
+		margin-bottom:20px;
+	}
+	.spanTitle {
+		margin-top: 10px;
+		margin-left:10px;
+		height:25px;
+		font-weight: 900;
+	}
+a {text-decoration: none;}
+a:visited {color: #018BD3;}
+a:hover {color:#FF6600; text-decoration: underline;}
+}
+
+@media(max-width:600px) {
+	.divTitle{width:400px!important;}
+	.divContent{width:400px!important;}
+}

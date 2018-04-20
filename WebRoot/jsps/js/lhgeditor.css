@@ -1,0 +1,108 @@
+﻿/*
+ *@Generator -> HtmlEditor Plugins - Build 2009-6-6
+ *@Copyright (c) 2009 LiHuiGang - lhgeditor.css
+ */
+
+.ed_c
+{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #ccc;
+}
+
+.ed_c .t_bar
+{
+	padding: 2px;
+	height: 24px;
+	border-bottom: 1px solid #ccc;
+	background-color: #efefef;
+}
+
+.ed_c .ed_btn
+{
+    float: left;
+	height: 22px;
+	width: 22px;
+	border: 1px solid #efefef;
+}
+
+.ed_c .ed_ico
+{
+    height: 16px;
+	width: 16px;
+	margin-left: 3px;
+	margin-top: 3px;
+	background-image: url(images/ed_ico.gif);
+	background-repeat: no-repeat;
+}
+
+.ed_c .ed_line
+{
+    height: 22px;
+	width: 14px;
+	float: left;
+}
+
+.ed_c .line
+{
+	height: 16px;
+	width: 5px;
+	margin-top: 3px;
+	margin-left: 6px;
+	background-image: url(images/ed_ico.gif);
+	background-repeat: no-repeat;
+	background-position: -225px 0;
+}
+
+.sc_panel
+{
+    border: 1px solid #8f8f73;
+	overflow: auto;
+	cursor: default;
+    white-space: nowrap;
+	padding: 2px;
+	padding-bottom: 0px;
+	background-color: #fff;
+}
+
+.sc_panel, .sc_panel td
+{
+	font: 12px Verdana, Arial, sans-serif;
+}
+
+.sc_item
+{
+    margin-bottom: 2px;
+	padding: 2px 2px 2px 5px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+	border: #dddddd 1px solid;
+}
+
+.sc_item span
+{
+    _position: relative;
+	_top: -2px;
+}
+
+.sc_item_over
+{
+    border: #316ac5 1px solid;
+}
+
+.sc_color
+{
+	margin-right: 2px;
+	margin-bottom: 2px;
+    width: 10px;
+	_width: 12px;
+	height: 10px;
+	_height: 12px;
+	border: 1px solid #808080;
+}
+
+.sc_color_over
+{
+    border: 1px solid #fff;
+}

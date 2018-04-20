@@ -1,0 +1,71 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #000000;
+
+}
+
+
+
+.powerby {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration: none;
+	background-position: center center;
+	line-height: 40px;
+}
+
+.tableallframe {
+	border: 1px solid #78BFD9;
+}
+
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	line-height:19px;
+	list-style: none;
+}
+li{ 
+	padding: 2px;
+display:compact;
+}
+
+a:link {
+	color:#CC0000;
+	text-decoration: blink;text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;text-decoration: none;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+.xtitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	color:#333333;
+	font-weight: bold;
+}
+.comment {
+	font-family: "Courier New", Courier, mono;
+	font-size: 13px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #99FF00;
+}
+.n1 {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #006600;
+	border: 1px solid #CCCCCC;
+}
